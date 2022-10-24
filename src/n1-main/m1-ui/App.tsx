@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../logo.svg';
+import logo from '../../logo.svg';
 import './App.css';
 
 function App() {
@@ -7,8 +7,7 @@ function App() {
     <div className="App">
       {/*hashrouter, provider*/}
       <>
-        {/*<Header />*/}
-        {/*<Main />*/}
+        {/*/!*<Main />*!/  header и router отрисуем в Main */}
 
       </>
 
