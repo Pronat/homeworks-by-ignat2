@@ -1,6 +1,6 @@
 
-
-export const registerReducer = (state: any, action: any) => {
+const initialState: any = []
+export const registerReducer = (state: any = initialState, action: any) => {
     switch (action.type) {
         default: return state
     }
