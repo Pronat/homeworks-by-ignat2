@@ -12,6 +12,7 @@ export function Header() {
             <NavLink to={PATH.REGISTRATION} className={s.link}>Registration</NavLink>
             <NavLink to={PATH.RESTORE_PASSWORD} className={s.link}>Restore password</NavLink>
             <NavLink to={PATH.TEST_COMPONENTS} className={s.link}>Test Components</NavLink>
+
         </div>
     )
 }
