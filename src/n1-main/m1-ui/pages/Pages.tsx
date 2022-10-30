@@ -24,7 +24,7 @@ export const Pages = () => {
             {/*Routes выбирает первый подходящий роут*/}
             <Routes>
 
-                {/*в начале мы попадаем на страницу '/' и переходим сразу на страницу PRE_JUNIOR*/}
+                {/*в начале мы попадаем на страницу '/' и переходим сразу на страницу */}
                 <Route path={PATH.ENTER_NEW_PASSWORD} element={<EnterNewPassword/>}/>
                 <Route path={PATH.LOGIN} element={<Login/>}/>
                 <Route path={PATH.PROFILE} element={<Profile/>}/>
@@ -32,13 +32,7 @@ export const Pages = () => {
                 <Route path={PATH.RESTORE_PASSWORD} element={<RestorePassword/>}/>
                 <Route path={PATH.TEST_COMPONENTS} element={<TestComponents/>}/>
                 <Route path={'/*'} element={<Error404/>}/>
-
-
-                {/*// add routes*/}
-
                 {/*он отрисуется если пользователь захочет попасть на несуществующую страницу*/}
-                <Route path={'/*'} element={<Error404/>}/>
-
             </Routes>
         </div>
     );
