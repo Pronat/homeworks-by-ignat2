@@ -1,6 +1,6 @@
 
 
-export const loginReducer = (state: any, action: any) => {
+export const registerReducer = (state: any, action: any) => {
     switch (action.type) {
         default: return state
     }
