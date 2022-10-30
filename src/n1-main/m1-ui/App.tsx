@@ -1,20 +1,23 @@
 import React from 'react';
 import './App.css';
-import {Route, Router, Routes} from "react-router-dom";
+import {HashRouter, Route, Router, Routes} from "react-router-dom";
 import Profile from "./pages/profile";
 import Error404 from "./pages/Error404";
 
 function App() {
   return (
     <div className="App">
+        <HashRouter>
 
-            <div>
-                <Routes>
-                    <Route path="/" element={<App />} />
-                    <Route path="/pages/profile" element={<Profile />} />
-                    <Route path="/pages/Error404" element={<Error404 />} />
-                </Routes>
-            </div>
+        </HashRouter>
+
+            {/*<div>*/}
+            {/*    <Routes>*/}
+            {/*        <Route path="/" element={<App />} />*/}
+            {/*        <Route path="/pages/profile" element={<Profile />} />*/}
+            {/*        <Route path="/pages/Error404" element={<Error404 />} />*/}
+            {/*    </Routes>*/}
+            {/*</div>*/}
 
 
 
