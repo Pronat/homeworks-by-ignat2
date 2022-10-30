@@ -1,8 +1,6 @@
 import React from 'react';
 import './App.css';
-import {HashRouter, Route, Router, Routes} from "react-router-dom";
-import Profile from "./pages/profile";
-import Error404 from "./pages/Error404";
+import {HashRouter} from "react-router-dom";
 import {Header} from "./header/Header";
 import {Pages} from "./pages/Pages";
 
